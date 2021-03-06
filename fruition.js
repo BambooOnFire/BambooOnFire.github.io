@@ -1,7 +1,7 @@
 /* CONFIGURATION STARTS HERE */
 
   /* Step 1: enter your domain name like fruitionsite.com */
-  const MY_DOMAIN = 'bambooonfire.github.io/';
+  const MY_DOMAIN = 'bambooonfire.github.io';
   
   /*
    * Step 2: enter your URL slug to page ID mapping
@@ -10,32 +10,17 @@
    */
   const SLUG_TO_PAGE = {
     '': '70fd765ff5e549bcba39263a002fb1a1',
-    'musiccollection': 'af9b37b9a0fd4dfbab9be60266a6a66f',
-    'chronomusic': '9d4bba787472462fb5a11044f8b0a0b6',
-    'spotifyplaylists': '25374aebb8e54177a783aa123496426b',
-    'softwares': '36b122439f4d465faa84d1e506dac41c',
-    'visuals': '668363269f944d60bad755bb810c4a4d',
-    'requests': 'd847cb00e19f4c6a90c01c0e31fc48df',
   };
   
   /* Step 3: enter your page title and description for SEO purposes */
-  const PAGE_TITLE = 'Bamboo Music Portfolio';
+  const PAGE_TITLE = '';
   const PAGE_DESCRIPTION = '';
   
   /* Step 4: enter a Google Font name, you can choose from https://fonts.google.com */
   const GOOGLE_FONT = '';
   
   /* Step 5: enter any custom scripts you'd like */
-  const CUSTOM_SCRIPT = `<script src="//code.tidio.co/k0rlettdgjjyuvprahogblthphe3xoy1.js" async></script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-984HMDQXQY"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-984HMDQXQY');
-</script>`;
+  const CUSTOM_SCRIPT = `<script src="//code.tidio.co/k0rlettdgjjyuvprahogblthphe3xoy1.js" async></script>`;
   
   /* CONFIGURATION ENDS HERE */
   
